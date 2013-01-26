@@ -1,0 +1,3 @@
+import Spectrum2 as s
+a = s.Analyze('phon/ad_m_5.wav', maxFreq=8)
+a.plot()
