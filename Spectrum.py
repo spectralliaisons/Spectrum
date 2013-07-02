@@ -22,25 +22,23 @@
 
 ############################
 
- Wes Jackson 
- feloniousriot@gmail.com
- Dec 2012
-
-
+ # Wes Jackson 
+ # feloniousriot@gmail.com
+ # Dec 2012
  
- Spectral analysis for many types of audio file
- All input converted to mono wav, as analysis may differ depending on file format
+ # Spectral analysis for many types of audio file
+ # All input converted to mono wav, as analysis may differ depending on file format
 
- USAGE: 
- import Spectrum as s
- a = s.Analyze('sound/kombucut.wav', maxFreq=8)
- a.plot()
+ # USAGE: 
+ # import Spectrum as s
+ # a = s.Analyze('sound/kombucut.wav', maxFreq=8)
+ # a.plot()
 
- TODO:
- [] Credit sources where I found useful code
- [] Sounds are converted to mono wav but sometimes the frequencies determined are off by a factor of 0.5X. Why is this?  
+ # TODO:
+ # [] Credit sources where I found useful code
+ # [] Sounds are converted to mono wav but sometimes the frequencies determined are off by a factor of 0.5X. Why is this?  
 
- Requirements: pydub
+ # Requirements: pydub
 
 ############################
 
